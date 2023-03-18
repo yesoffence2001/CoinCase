@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    width: 14rem;
+}
+
+.select {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    font-style: italic;
+    padding: .3rem;
+    color: white;
+}
+
+.input {
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: .5rem;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 10rem
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 15rem
+    }
+}

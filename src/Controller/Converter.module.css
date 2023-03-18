@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    border: 10px solid #4d4d4d;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin: 3.5rem auto 0;
+    
+
+}
+
+.equals {
+    font-size: 2rem;
+    margin: .5rem;
+    color: #ff9e71;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .main {
+        width: 70vw;
+        margin-top: 2rem;
+    }
+}
